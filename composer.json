@@ -1,0 +1,19 @@
+{
+    "name": "jeremycurny/monolog-mysqlhandler",
+    "description": "A handler for Monolog that sends logs to MySQL",
+    "keywords": ["log", "logging", "monolog", "mysql", "database"],
+    "homepage": "https://github.com/jeremycurny/monolog-mysqlhandler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Curny",
+            "email": "jeremy.curny.pro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "require": {
+        "monolog/monolog": ">1.4.0"
+    }
+}
